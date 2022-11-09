@@ -35,3 +35,4 @@ npx nx generate @nrwl/nest:library entities --directory=user --buildable --stric
 ### Other general configurations:
 
 - Google Typescript Style - GTS: Prettier and Eslint with some rules in 0 for nest. More information: .eslintrc.json
+-
