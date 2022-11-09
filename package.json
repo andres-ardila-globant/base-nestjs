@@ -7,12 +7,8 @@
     "build": "nx build",
     "test": "nx test",
     "lint": "nx lint",
-    "lint:write": "nx format:write --skip-nx-cache",
     "lint:all": "nx run-many --all --target=lint --skip-nx-cache",
-    "clean": "gts clean",
-    "prepare": "npm.cmd run compile",
-    "pretest": "npm.cmd run compile",
-    "posttest": "npm.cmd run lint"
+    "lint:write": "nx format:write --skip-nx-cache"
   },
   "private": true,
   "dependencies": {
