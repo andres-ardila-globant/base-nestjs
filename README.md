@@ -28,3 +28,7 @@ npx nx generate @nrwl/nest:library domain --directory=user --buildable --strict 
 npx nx generate @nrwl/nest:library entities --directory=user --buildable --strict --testEnvironment=jsdom --no-interactive
 
 ```
+
+### Other general configurations:
+
+- Include Prettier Plugins: plugin:@typescript-eslint
