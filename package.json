@@ -8,7 +8,8 @@
     "test": "nx test",
     "lint": "nx lint",
     "lint:all": "nx run-many --all --target=lint --skip-nx-cache",
-    "lint:write": "nx format:write --skip-nx-cache"
+    "lint:write": "nx format:write --skip-nx-cache",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -35,14 +36,16 @@
     "@typescript-eslint/parser": "^5.36.1",
     "eslint": "~8.15.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gts": "^3.1.1",
+    "husky": "^8.0.0",
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
+    "lint-staged": "^13.0.3",
     "nx": "15.0.6",
     "prettier": "^2.7.1",
     "ts-jest": "28.0.5",
     "ts-node": "10.9.1",
     "tslib": "^2.4.1",
-    "typescript": "~4.8.2",
-    "gts": "^3.1.1"
+    "typescript": "~4.8.2"
   }
 }
