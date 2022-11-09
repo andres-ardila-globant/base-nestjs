@@ -31,4 +31,4 @@ npx nx generate @nrwl/nest:library entities --directory=user --buildable --stric
 
 ### Other general configurations:
 
-- Include Prettier Plugins: plugin:@typescript-eslint
+- Include Prettier Plugins in .eslint: plugin:@typescript-eslint, By Default is .eslintrc NO Prettier Tool
