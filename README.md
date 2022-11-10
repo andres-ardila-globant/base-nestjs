@@ -32,7 +32,11 @@ npx nx generate @nrwl/nest:library entities --directory=user --buildable --stric
 
 ```
 
+npx nx generate @nrwl/nest:controller user --project=user-adapter-interface --module=UserAdapterInterfaceModule --directory=lib --language=ts --no-interactive
+
+npx nx generate @nrwl/nest:service user --project=user-application --directory=lib --language=ts --no-interactive
+
 ### Other general configurations:
 
 - Google Typescript Style - GTS: Prettier and Eslint with some rules in 0 for nest. More information: .eslintrc.json
--
+- Husky (Lite version): Only in Pre-commit, for the future is necessary to include in all stages. in **TODO**
